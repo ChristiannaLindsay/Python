@@ -273,8 +273,8 @@ st.subheader("Interactive Nutrient Tool", anchor=False)
 st.write(
     """
     This tool is rather self-explanatory. If, for instance, one were trying to get
-    more selenium in their diet, they would select "Selenium (mcg)" in the Nutrient dropdown,
-    and choose the number of foods to show that are highest in selenium. The bar chart 
+    more selenium in their diet, they would select "Selenium (mcg)" in the "Nutrient" dropdown,
+    and choose the number of foods to show that are highest in selenium using the "Number of foods" dropdown. The bar chart 
     shows that Brazil nuts dwarf all other foods in selenium content with 1917 mcg per 100g.
     If one wanted to know the %DV of selenium that Brazil nuts provide, they could either use the
     interactive table to scroll to the "Selenium PDV" column or select "Selenium PDV" in the Nutrient dropdown to see
