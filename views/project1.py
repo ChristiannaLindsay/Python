@@ -18,7 +18,7 @@ visualize what foods are highest in certain nutrients. I want someone to be able
 macronutrient, micronutrient, or mineral they are interested in (e.g. protein, magnesium, etc.),
 and learn what foods contain the highest densities of that nutrient.
 I am only
-interested in raw, whole (single-ingredient) foods, rather processed, prepared, or fortified foods.
+interested in raw, whole (single-ingredient) foods, rather than processed, prepared, or fortified foods.
 All code for this project can be found on my GitHub.
 """
 )
