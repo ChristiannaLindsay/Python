@@ -5,7 +5,6 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-import mpld3
 import streamlit.components.v1 as components
 import plotly.express as px
 
