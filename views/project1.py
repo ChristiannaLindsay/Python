@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import streamlit.components.v1 as components
-import plotly.express as px
-
 
 st.title("Nutritious Foods Tool", anchor=False)
 
