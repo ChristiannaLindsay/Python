@@ -42,7 +42,8 @@ st.write(
     """
 )
 with st.columns(6)[1]:
-     st.image("./assets/Model1.png", width=500)
+     url = "https://raw.githubusercontent.com/ChristiannaLindsay/streamlit_website/main/assets/Model1.png"
+     st.image(url, output_format="PNG", width=500)
      st.caption("Table 1")
 
 st.subheader("Model 2", anchor=False)
@@ -57,11 +58,10 @@ st.write(
      - The odds of being very happy are 2.415 times greater for married adults than unmarried adults, with all other variables being equal.
     """
 )
-#st.image("./assets/Model2.png", width=600)
-#st.caption("Figure 2")
 
 with st.columns(6)[1]:
-     st.image("./assets/Model2.png", width=500)
+     url = "https://raw.githubusercontent.com/ChristiannaLindsay/streamlit_website/main/assets/Model2.png"
+     st.image(url, output_format="PNG", width=500)     
      st.caption("Table 2")
 
 
@@ -83,12 +83,14 @@ st.write(
     """
 )
 with st.columns(6)[1]:
-     st.image("./assets/Model3.png", width=500)
+     url = "https://raw.githubusercontent.com/ChristiannaLindsay/streamlit_website/main/assets/Model3.png"
+     st.image(url, output_format="PNG", width=500)
      st.caption("Table 3")
 
 st.subheader("Happiness and Political Affiliation", anchor=False)
 
-st.image("./assets/odds_ratios.png", width=700)
+url = "https://raw.githubusercontent.com/ChristiannaLindsay/streamlit_website/main/assets/odds_ratios.png"
+st.image(url, output_format="PNG", width=600)
 st.caption("Figure 1")
 
 st.write(
@@ -101,7 +103,8 @@ st.write(
     """)
 
 with st.columns(6)[1]:
-     st.image("./assets/married.png", width=500)
+     url = "https://raw.githubusercontent.com/ChristiannaLindsay/streamlit_website/main/assets/married.png"
+     st.image(url, output_format="PNG", width=500)
      st.caption("Figure 2")
 
 st.write(
@@ -118,7 +121,8 @@ st.write(
 )
 
 with st.columns(6)[1]:
-     st.image("./assets/happily_married.png", width=500)
+     url = "https://raw.githubusercontent.com/ChristiannaLindsay/streamlit_website/main/assets/happily_married.png"
+     st.image(url, output_format="PNG", width=500)
      st.caption("Figure 3")
 
 st.write(

@@ -1,9 +1,5 @@
 import streamlit as st
-#import numpy as np
 import pandas as pd
-#import matplotlib
-#import matplotlib.pyplot as plt
-#import streamlit.components.v1 as components
 
 st.title("Nutritious Foods Tool", anchor=False)
 
@@ -256,8 +252,8 @@ nutrients['Vitamin K (phylloquinone) PDV'] = PDV(amount=nutrients['Vitamin K (ph
 nutrients['Calcium PDV'] = PDV(amount=nutrients['Calcium (mg)'], DV=1300)
 nutrients['Phosphorus PDV'] = PDV(amount=nutrients['Phosphorus (mg)'], DV=1250)
 nutrients['Magnesium PDV'] = PDV(amount=nutrients['Magnesium (mg)'], DV=420)
-nutrients['Iron PDV'] = PDV(amount=nutrients['Iron (mg)'], DV=18)
-nutrients['Zinc PDV'] = PDV(amount=nutrients['Zinc (mg)'], DV=11)
+#nutrients['Iron PDV'] = PDV(amount=nutrients['Iron (mg)'], DV=18)
+#nutrients['Zinc PDV'] = PDV(amount=nutrients['Zinc (mg)'], DV=11)
 nutrients['Copper PDV'] = PDV(amount=nutrients['Copper (mg)'], DV=0.9)
 nutrients['Selenium PDV'] = PDV(amount=nutrients['Selenium (mcg)'], DV=55)
 nutrients['Potassium PDV'] = PDV(amount=nutrients['Potassium (mg)'], DV=4700)

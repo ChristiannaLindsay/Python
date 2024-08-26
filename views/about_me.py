@@ -3,7 +3,9 @@ import streamlit as st
 # Hero section
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
-    st.image("./assets/headshot.png", width=280)
+    url = "https://raw.githubusercontent.com/ChristiannaLindsay/streamlit_website/main/assets/headshot.png"
+    st.image(url, output_format="PNG", width=280)    
+    #st.image("./assets/headshot.PNG", width=280, output_format="PNG")
 with col2:
     st.title("Christianna Lindsay", anchor=False)
     st.write(
