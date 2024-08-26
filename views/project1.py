@@ -270,17 +270,6 @@ st.dataframe(nutrients)
 # Visualize data
 st.subheader("Interactive Nutrient Tool", anchor=False)
 
-just_nut = nutrients.drop(['Food code', 'WWEIA Category number', 'WWEIA Category description'],axis=1)
-
-# Choose nutrient to plot top N foods for
-
-nutrient_choice = st.selectbox("Nutrient:", just_nut.columns[1:])
-N = st.number_input('Number of foods:', min_value=1, max_value=10, value=5, step=1)
-topNfoods = just_nut.sort_values(nutrient_choice, ascending=False).iloc[:N]
-st.dataframe(topNfoods)
-
-st.bar_chart(topNfoods, x='Main food description', y=nutrient_choice, color='#d5b9d5')
-
 st.write(
     """
     This tool is rather self-explanatory. If, for instance, one were trying to get
@@ -292,5 +281,16 @@ st.write(
     that 100g of Brazil nuts provide 3,485% of the recommended Daily Value.
 """
 )
+
+just_nut = nutrients.drop(['Food code', 'WWEIA Category number', 'WWEIA Category description'],axis=1)
+
+# Choose nutrient to plot top N foods for
+
+nutrient_choice = st.selectbox("Nutrient:", just_nut.columns[1:])
+N = st.number_input('Number of foods:', min_value=1, max_value=10, value=5, step=1)
+topNfoods = just_nut.sort_values(nutrient_choice, ascending=False).iloc[:N]
+st.dataframe(topNfoods)
+
+st.bar_chart(topNfoods, x='Main food description', y=nutrient_choice, color='#d5b9d5')
 
 
