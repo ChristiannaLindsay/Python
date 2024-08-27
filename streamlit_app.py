@@ -10,7 +10,7 @@ about_page = st.Page(
 
 project_1_page = st.Page(
     page = "views/project1.py",
-    title = "Nutritious Foods Tool",
+    title = "Nutrition Tool",
     icon = ":material/nutrition:",
 )
 
