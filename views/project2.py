@@ -116,7 +116,7 @@ st.write(
     on happiness than partisanship does. The fact that the odds ratio for partisanship
     decreases when marital status is added to the model means that the association between partisanship
     and happiness may be due to in part to marital status, as more Republicans tend to
-    be married than Democrats.
+    be married than Democrats (Figure 2).
     """
 )
 
