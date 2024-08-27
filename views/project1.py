@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Nutritious Foods Tool", anchor=False)
+st.title("Nutrition Tool", anchor=False)
 
 st.write("Python Code for this project: https://github.com/ChristiannaLindsay/streamlit_website/blob/main/views/project1.py")
 
