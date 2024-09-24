@@ -69,7 +69,7 @@ with st.columns(6)[1]:
 st.subheader("Model 3", anchor=False)
 st.write(
     """
-    Model 3: In this third model, marital status is replaced by marital happiness,
+    In this third model, marital status is replaced by marital happiness,
     where marital happiness is a binary variable outcome defined by being “very happy”
     in marriage versus “pretty happy,” “not too happy,” “do not know/cannot choose,” or
     “inapplicable.” Note that unmarried people count as not “very happy” in marriage.
